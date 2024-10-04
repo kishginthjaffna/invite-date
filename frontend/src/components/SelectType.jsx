@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import HeartAnimation from './HeartAnimation';
 import axios from 'axios';
-import catImg from "../assets/cat 6.jpg";
+import catImg from "../assets/Cat 6.jpg";
 
 const types = ['Movie', 'Ice Cream', 'Temple', 'Beach', 'Museum', 'Park', 'Food', 'Mall'];
 

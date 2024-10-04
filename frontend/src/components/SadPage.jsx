@@ -1,5 +1,5 @@
 import React from 'react';
-import cat from "../assets/cat 2.jpg"
+import cat from "../assets/Cat 2.jpg"
 
 const SadPage = () => {
   return (
