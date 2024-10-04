@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import HeartAnimation from './HeartAnimation';
-import cat from "../assets/cats.jpg";
+import cat from "../assets/Cats.jpg";
 import axios from 'axios';
 
 const Home = () => {
