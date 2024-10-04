@@ -10,7 +10,7 @@ const Home = () => {
   const handleDecision = async (decision) => {
     try {
       // Submit the decision to the backend
-      await axios.post('http://localhost:5000/api/decision', { decision });
+      await axios.post('http://invite-date.vercel.app/api/decision', { decision });
       
       // Navigate based on the decision
       if (decision === 'yes') {

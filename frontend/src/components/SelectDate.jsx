@@ -13,7 +13,7 @@ const SelectDate = () => {
   const handleSubmit = async () => {
     try {
       // Send both date and time separately
-      await axios.post('http://localhost:5000/api/date-time', { 
+      await axios.post('http://invite-date.vercel.app/api/date-time', { 
         dateTime: `${date} ${time}`, 
         date, // Send the date separately
         time // Send the time separately

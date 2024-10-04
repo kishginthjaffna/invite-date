@@ -22,7 +22,7 @@ const SelectType = () => {
     }
   
     try {
-      await axios.post('http://localhost:5000/api/date-type', { dateType: type });
+      await axios.post('http://invite-date.vercel.app/api/date-type', { dateType: type });
       navigate('/final', { state: { date, time, type } });
     } catch (error) {
       console.error('Error submitting type of date:', error);
